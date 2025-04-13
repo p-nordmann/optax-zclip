@@ -92,6 +92,3 @@ def z_clip(
         )
 
     return optax.GradientTransformation(init_fn, update_fn)
-
-
-def _clip_gradient(clipping_threshold): ...
