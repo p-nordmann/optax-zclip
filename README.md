@@ -9,7 +9,7 @@ ZClip implementation for Optax.
 
 ## Disclaimer
 
-The name of the repository comes from the name of the technique, as given by the authors. However, this technique does not perform gradient clipping, but rather gradient scaling.
+The name of the repository comes from the name of the technique, as given by the authors. However, this technique does not perform gradient clipping elementwise, but rather gradient scaling. This is similar to the kind of clipping used in [`optax.clip_by_global_norm`](https://optax.readthedocs.io/en/latest/api/transformations.html#optax.clip_by_global_norm), for instance.
 
 
 ## Building
